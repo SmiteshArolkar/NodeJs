@@ -1,8 +1,10 @@
 const databaseServices = require("../services/db.service");
 
 exports.createEmployee = async (body) => {
+    console.log('EmployeeRepository.createEmployee');
+
     try {
-        console.log('EmployeeREpository.createEmployee');
+        console.log(body)
         const result = await databaseServices.employee.create(body);
         console.log("result : ",result);
         return result;

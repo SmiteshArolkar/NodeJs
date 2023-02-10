@@ -5,5 +5,11 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.STRING,
             defaultValue: Sequelize.UUIDV4,
         },
+        name : {
+            type: Sequelize.STRING,
+        },
+        designation: {
+            type: Sequelize.STRING,
+        },
     });
 };

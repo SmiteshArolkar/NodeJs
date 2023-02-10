@@ -1,0 +1,5 @@
+GET /resouce
+GET /resource/{id}
+PUT /
+PACTH /
+POST /
